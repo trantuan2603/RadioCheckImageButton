@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.landsoft.radiocheckimagebutton.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Tôi là cheng"
+        android:id="@+id/tv_result"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genner" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radio_btn_gay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gay" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_less"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="less" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobby" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <CheckBox
+            android:checked="true"
+            android:id="@+id/cb_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="love purple" />
+
+        <CheckBox
+            android:id="@+id/cb_pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="like pink" />
+
+        <CheckBox
+            android:id="@+id/cb_introvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introvert" />
+
+        <CheckBox
+            android:id="@+id/cb_cry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="often crying" />
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/img_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
